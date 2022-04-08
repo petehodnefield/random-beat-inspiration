@@ -12,11 +12,6 @@
   --lightred-color: #f56161;
 }
 
-
-html {
-   
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -27,6 +22,9 @@ body {
 h1 {
     margin: 0;
     font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
 }
 
 .container {
@@ -76,4 +74,18 @@ h1 {
 .btn:hover {
     background: var(--lightred-color);
     cursor: pointer;
+}
+
+.appended-parameters {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+}
+
+.parameters-style {
+    font-size: 2em;
+    padding: .4rem;
 }
